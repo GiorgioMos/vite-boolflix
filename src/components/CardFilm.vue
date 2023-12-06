@@ -62,7 +62,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use '../styles/general.scss';
+@use '../style/general.scss';
 
 .stars-outer:before {
     content: "\2606 \2606 \2606 \2606 \2606";
@@ -98,4 +98,5 @@ export default {
 .flip-card:hover .flip-card-inner,
 .flip-card-back {
     transform: rotateX(180deg);
-}</style>
+}
+</style>
